@@ -297,12 +297,14 @@ ul{list-style:none}
         height: 72px;
     }
 #logo {
+    float: left;
     width: 130px;
-    height: auto;
+    height: 48px;
+    margin: 12px 24px;
     background: url(../images/logo_spre.png) no-repeat;
-    background-size: contain;  /* 이미지 비율 유지하며 축소 */
-    margin: 24px;
+    background-size: contain;
 }
+
 
 
 
@@ -3543,6 +3545,7 @@ ul{list-style:none}
 	
 }
    
+
 
 
 
