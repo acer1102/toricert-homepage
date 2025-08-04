@@ -296,13 +296,15 @@ ul{list-style:none}
         background:#2b2b2b repeat-x 0 100%;
         height: 72px;
     }
-    #logo {
-        float: left;
-        height: 24px;
-		width:106px;
-		margin:24px;
-		background: url(../images/logo.png);
-    }
+  #logo {
+    float: left;
+    height: 46px; /* 이미지 실제 높이 */
+    width: 128px; /* 이미지 실제 너비 */
+    margin: 13px 24px; /* 수직 가운데 정렬을 위한 마진 조정 */
+    background: url(../images/logo_spre.png) no-repeat center center;
+    background-size: contain;
+}
+
 
 
     /*  Navigation  --------------------------------*/
@@ -3542,6 +3544,7 @@ ul{list-style:none}
 	
 }
    
+
 
 
 
