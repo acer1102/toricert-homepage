@@ -298,9 +298,9 @@ ul{list-style:none}
     }
     #logo {
         float: left;
-        height: 8px;
+        height: 48px;
 		width:120px;
-		margin:44px;
+		margin:4px;
 		background: url(../images/logo_tori.png);
     }
 
@@ -3542,6 +3542,7 @@ ul{list-style:none}
 	
 }
    
+
 
 
 
